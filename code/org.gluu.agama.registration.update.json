@@ -468,7 +468,8 @@
 				"width": 110,
 				"height": 60
 			},
-			"selected": false
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "assignmentNode-f8279d56-763b-408e-b242-46a68206553d",
@@ -513,7 +514,7 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "callNode-0cda88a6-26a7-44bb-bf54-48b4afa5d1ca",
@@ -555,7 +556,8 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": false
+			"selected": false,
+			"dragging": false
 		},
 		{
 			"id": "callNode-f625b9bc-1499-411d-83ff-0357978459c8",
@@ -574,13 +576,11 @@
 				"previousNodeId": "callNode-0cda88a6-26a7-44bb-bf54-48b4afa5d1ca",
 				"agamaData": {
 					"javaClassName": "",
-					"javaMethodName": "Call",
+					"javaMethodName": "updateUser",
 					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
 					"arguments": [
-						"userRegistrationService",
-						"updateUser",
 						"userInput"
 					],
 					"nodeIcon": "material-symbols:code",
@@ -597,7 +597,7 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": false
+			"selected": true
 		},
 		{
 			"id": "whenNode-70089f05-026f-47a3-b6a8-0ebd9397c662",
@@ -638,7 +638,8 @@
 			"measured": {
 				"width": 110,
 				"height": 60
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "logNode-b031dd0f-0ef1-4b42-ba9a-57afa51a11db",
@@ -672,7 +673,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "rrfNode-b8332e72-1c99-4ca0-a1ce-0ac0ca6c1901",
@@ -706,7 +708,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "logNode-83df9299-61c8-4bcc-a50e-9f45739809bd",
@@ -805,7 +808,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "assignmentNode-80ed7af3-59da-4150-a95f-1b32c704451d",
@@ -842,7 +846,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "logNode-89d24c07-d35b-4a30-8798-d4679761d0e9",
@@ -1352,8 +1357,8 @@
 		}
 	],
 	"viewport": {
-		"x": -2961.62960743044,
-		"y": -238.10331301412714,
-		"zoom": 1.3491025343396987
+		"x": -4187.92792630416,
+		"y": -119.4623596279954,
+		"zoom": 1.5669943738986813
 	}
 }
