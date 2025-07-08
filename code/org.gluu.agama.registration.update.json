@@ -387,7 +387,7 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "rrfNode-a57afa2f-4e1f-41a2-af67-e891470dd8b2",
@@ -467,7 +467,8 @@
 			"measured": {
 				"width": 110,
 				"height": 60
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "assignmentNode-f8279d56-763b-408e-b242-46a68206553d",
@@ -489,7 +490,7 @@
 					"assignments": [
 						{
 							"variableTypeCheck": true,
-							"assignmentExpression": "User input fields are empty",
+							"assignmentExpression": "\"User input fields are empty\"",
 							"assignedVariableName": "uiFeedback.errorMessage"
 						},
 						{
@@ -511,7 +512,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": true
 		},
 		{
 			"id": "callNode-0cda88a6-26a7-44bb-bf54-48b4afa5d1ca",
@@ -1350,8 +1352,8 @@
 		}
 	],
 	"viewport": {
-		"x": -2440.6296074304396,
-		"y": -478.10331301412714,
+		"x": -2961.62960743044,
+		"y": -238.10331301412714,
 		"zoom": 1.3491025343396987
 	}
 }
