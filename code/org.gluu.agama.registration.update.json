@@ -259,7 +259,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "callNode-44cf23fe-de8f-4712-a1f2-1760ec6df780",
@@ -298,7 +299,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "whenNode-2a070ca6-1926-462e-94ce-406866803422",
@@ -417,7 +419,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "whenNode-2622f72f-524b-4405-9650-5ba520f993b2",
@@ -458,7 +461,8 @@
 			"measured": {
 				"width": 110,
 				"height": 60
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "assignmentNode-77f6af3e-5a75-4886-8329-879eb98ddc95",
@@ -544,7 +548,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "callNode-6f09d830-90ee-4da0-9622-f7853a33459f",
@@ -564,7 +569,7 @@
 				"agamaData": {
 					"javaClassName": "",
 					"javaMethodName": "Call",
-					"javaVariableName": "=",
+					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
 					"arguments": [
@@ -585,7 +590,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": true
 		},
 		{
 			"id": "whenNode-5c8b473a-ac56-4234-b164-e13119944666",
@@ -831,7 +837,7 @@
 				"width": 170,
 				"height": 124
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "logNode-fa13c7b7-7812-4f52-8fdf-ff14fff693f1",
@@ -1341,8 +1347,8 @@
 		}
 	],
 	"viewport": {
-		"x": -2135.8382656605822,
-		"y": 23.685828092260067,
-		"zoom": 0.8122523963562356
+		"x": -2146.12385561922,
+		"y": -139.54172540020977,
+		"zoom": 1
 	}
 }
