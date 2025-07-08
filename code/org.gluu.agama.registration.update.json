@@ -73,7 +73,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "repeatNode-7a0e8838-93c5-4770-a339-65b0efec1fa7",
@@ -597,7 +598,7 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": false
+			"selected": true
 		},
 		{
 			"id": "whenNode-70089f05-026f-47a3-b6a8-0ebd9397c662",
@@ -918,7 +919,7 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": true
+			"selected": false
 		}
 	],
 	"edges": [
@@ -1361,8 +1362,8 @@
 		}
 	],
 	"viewport": {
-		"x": 0,
-		"y": 0,
-		"zoom": 1
+		"x": -2026.1823638975916,
+		"y": 85.56186111969396,
+		"zoom": 0.860949188338904
 	}
 }
