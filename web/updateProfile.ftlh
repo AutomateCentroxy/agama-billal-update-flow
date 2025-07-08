@@ -34,7 +34,7 @@
 		  <input type="hidden" id="formType" name="formType" value="updateUserForm">
 		  <div class="form-group">
 			<label class="form-label">INUM: <span class="required">*</span></label>
-			<input type="text" id="inum" name="inum" value="${inum!}" readonly="" class="form-control">
+			<input type="text" id="inum" name="inum" value="${inum!}" disabled="" class="form-control">
 		  </div>
 		  <div class="form-group">
 			<label class="form-label">Username: <span class="required">*</span></label>
