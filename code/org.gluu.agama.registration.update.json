@@ -35,7 +35,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "assignmentNode-50023961-5814-4762-97c3-e3c820d27f59",
@@ -104,7 +105,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "rrfNode-f3f54118-5c1d-486d-ab0a-cecbbf483a2e",
@@ -142,7 +144,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "callNode-31bd22af-ec50-447b-8e93-809e347cca71",
@@ -179,7 +182,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "whenNode-6b416e36-269a-48be-8fb6-baaea600be8d",
@@ -220,7 +224,8 @@
 			"measured": {
 				"width": 110,
 				"height": 60
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "assignmentNode-176e14c8-5b43-4d20-9c89-3c31841fcf7f",
@@ -259,7 +264,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "callNode-50e82fa9-43e4-4910-aff8-e860cb62e580",
@@ -298,7 +304,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "whenNode-0f15e198-96f4-48f7-b407-1598f83f1ad4",
@@ -339,7 +346,8 @@
 			"measured": {
 				"width": 110,
 				"height": 60
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "assignmentNode-40ae5d5a-56a5-40ff-9a71-8c3d8649ef51",
@@ -361,7 +369,7 @@
 					"assignments": [
 						{
 							"variableTypeCheck": true,
-							"assignmentExpression": "User not registered with this UserName",
+							"assignmentExpression": "\"User not registered with this UserName\"",
 							"assignedVariableName": "uiFeedback.errorMessage"
 						}
 					],
@@ -378,7 +386,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": true
 		},
 		{
 			"id": "rrfNode-a57afa2f-4e1f-41a2-af67-e891470dd8b2",
@@ -416,7 +425,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "whenNode-d613f01e-1b44-4510-b531-88d91f741675",
@@ -585,7 +595,7 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "whenNode-70089f05-026f-47a3-b6a8-0ebd9397c662",
@@ -1340,8 +1350,8 @@
 		}
 	],
 	"viewport": {
-		"x": 0,
-		"y": 0,
-		"zoom": 1
+		"x": -2440.6296074304396,
+		"y": -478.10331301412714,
+		"zoom": 1.3491025343396987
 	}
 }
