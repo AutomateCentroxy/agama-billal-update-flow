@@ -542,7 +542,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "callNode-f625b9bc-1499-411d-83ff-0357978459c8",
@@ -562,7 +563,7 @@
 				"agamaData": {
 					"javaClassName": "",
 					"javaMethodName": "Call",
-					"javaVariableName": "=",
+					"javaVariableName": "userRegistrationService",
 					"exceptionVariableField": "",
 					"callType": "Call method on instance",
 					"arguments": [
@@ -583,7 +584,8 @@
 			"measured": {
 				"width": 170,
 				"height": 124
-			}
+			},
+			"selected": true
 		},
 		{
 			"id": "whenNode-70089f05-026f-47a3-b6a8-0ebd9397c662",
@@ -1338,8 +1340,8 @@
 		}
 	],
 	"viewport": {
-		"x": -3865.1795741757105,
-		"y": -203.210278826709,
+		"x": -3862.1795741757105,
+		"y": -179.210278826709,
 		"zoom": 1.5157165665103982
 	}
 }
