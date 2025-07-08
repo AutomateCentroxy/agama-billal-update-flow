@@ -3,15 +3,11 @@
 <html lang="en">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Update User Profile
 	</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"></head>
-<body>
+<body>[#ftl output_format="HTML"]
 
-  
-	
-	
-	
-	
-  
-  [#ftl output_format="HTML"]
+
+
+
 	<div class="registration-container">
 	  <div align="center" class="flex">
 		<img src="https://gluu.org/wp-content/uploads/2020/12/logo.png" id="inh1m">
@@ -30,16 +26,27 @@
 	  <div class="content">
 		<p class="text-center">Search user by username
 		</p>
-		<form method="post" enctype="application/x-www-form-urlencoded" id="updateUserForm">
-		  <input type="hidden" id="formType" name="formType" value="updateUserForm">
-		  <div class="form-group">
+        <form method="post" enctype="application/x-www-form-urlencoded" id="updateUserForm">
+        <input type="hidden" id="formType" name="formType" value="updateUserForm">
+        <div class="form-group">
 			<label class="form-label">INUM: <span class="required">*</span></label>
-			<input type="text" id="inum" name="inum" value="${inum!}" disabled="" class="form-control">
-			<input type="hidden" id="inum" name="inum" value="${inum!}">
+			<input type="text" id="inum" name="inum" value="${inum!}" title="Name should contain only alphabets" required="" class="form-control">
 		  </div>
-		  <div class="form-group">
+          <div class="form-group">
 			<label class="form-label">Username: <span class="required">*</span></label>
 			<input type="text" id="uid" name="uid" value="${uid!}" pattern="[A-Za-z]+" title="Name should contain only alphabets" required="" placeholder="Choose a username" class="form-control">
+		  </div>
+		  <div class="form-group">
+			<label class="form-label">Display Name: <span class="required">*</span></label>
+			<input type="text" id="displayName" name="displayName" value="${displayName!}" required="" placeholder="Enter your display name" class="form-control">
+		  </div>
+		  <div class="form-group">
+			<label class="form-label">First Name: <span class="required">*</span></label>
+			<input type="text" id="givenName" name="givenName" value="${name!}" required="" placeholder="Enter your first name" class="form-control">
+		  </div>
+		  <div class="form-group">
+			<label class="form-label">Last Name: <span class="required">*</span></label>
+			<input type="text" id="sn" name="sn" value="${sn!}" required="" placeholder="Enter your last name" class="form-control">
 		  </div>
 		  <div class="form-group">
 			<label class="form-label">Email: <span class="required">*</span></label>
@@ -55,6 +62,9 @@
   
   
   
+
+
+
 </body>
 <style>
 	body {
@@ -165,8 +175,8 @@
 	  //let confirmPassword = document.getElementById("confirmPassword").value;
 	  //let errorMessage = document.getElementById("error-message");
 	  //if (password !== confirmPassword) {
-	  //errorMessage.innerText = "Passwords do not match!";
-	  //return false;
+		//errorMessage.innerText = "Passwords do not match!";
+		//return false;
 	  //}
 	  //errorMessage.innerText = "";
 	  //return true;
