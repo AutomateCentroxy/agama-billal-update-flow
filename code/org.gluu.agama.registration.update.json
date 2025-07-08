@@ -776,7 +776,7 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "logNode-e1f9fee7-c66f-4838-b675-8773cf31f39b",
@@ -883,7 +883,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "finishNode-cdc740a9-8229-40b3-b6c4-79390e15535e",
@@ -908,7 +909,7 @@
 					"hasComment": true,
 					"comment": " User Registration flow failed",
 					"flowfilename": "",
-					"returnVariable": "\"User update flow reached max attempts try later\"",
+					"returnVariable": "User update flow reached max attempts try later",
 					"finishMode": "withFailure",
 					"nodeIcon": "material-symbols:line-end-square-rounded"
 				}
@@ -916,7 +917,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": true
 		}
 	],
 	"edges": [
@@ -1359,8 +1361,8 @@
 		}
 	],
 	"viewport": {
-		"x": -4397.296399476316,
-		"y": -122.99240463932944,
-		"zoom": 1.3491025343396987
+		"x": -508,
+		"y": 236,
+		"zoom": 1
 	}
 }
