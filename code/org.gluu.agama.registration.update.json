@@ -741,7 +741,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": false
 		},
 		{
 			"id": "finishNode-98369d39-0360-481b-aef8-dc49352ace2b",
@@ -774,7 +775,8 @@
 			"measured": {
 				"width": 170,
 				"height": 123
-			}
+			},
+			"selected": true
 		},
 		{
 			"id": "logNode-e1f9fee7-c66f-4838-b675-8773cf31f39b",
@@ -847,7 +849,7 @@
 				"width": 170,
 				"height": 123
 			},
-			"selected": true
+			"selected": false
 		},
 		{
 			"id": "logNode-89d24c07-d35b-4a30-8798-d4679761d0e9",
@@ -1357,8 +1359,8 @@
 		}
 	],
 	"viewport": {
-		"x": -4782.92792630416,
-		"y": 50.5376403720046,
-		"zoom": 1.5669943738986813
+		"x": -4397.296399476316,
+		"y": -122.99240463932944,
+		"zoom": 1.3491025343396987
 	}
 }
