@@ -26,7 +26,7 @@ Repeat 6 times max
                // when fields values are not entered
                When userInput.empty is true
                     // show error
-                    uiFeedback.errorMessage = User input fields are empty
+                    uiFeedback.errorMessage = "User input fields are empty"
                     inum = userInput.inum
                Otherwise
                     //  Check user already exist or not with username
@@ -50,5 +50,5 @@ Repeat 6 times max
 //  Maximum attempt reached
 Log "@info Maximum attempt reached"
 //  User Registration flow failed
-it_ssvdf = {success:false, error: ""User update flow reached max attempts try later""}
-Finish it_ssvdf
+it_ersjf = {success:false, error: ""User update flow reached max attempts try later""}
+Finish it_ersjf
